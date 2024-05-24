@@ -2,7 +2,7 @@ import requests
 
 class NotificationToLine(object):
     def __init__(self):
-        self.access_token = 'a4FUEQaWBBJTUk8aznYUlDCWOfwCflzNrLuJue7Hfaj'  # ここに発行したアクセストークンを入力
+        self.access_token = ''  # ここに発行したアクセストークンを入力
 
     def send_line_notify(self, message):
         line_notify_api = 'https://notify-api.line.me/api/notify'
